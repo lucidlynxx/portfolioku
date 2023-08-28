@@ -1,8 +1,8 @@
+const burger = document.querySelector(".burger");
+const navLists = document.querySelector("nav");
+
 // Toggle and Responsive Navigation
 const navSlide = () => {
-    const burger = document.querySelector(".burger");
-    const navLists = document.querySelector("nav");
-
     burger.addEventListener("click", () => {
         navLists.classList.toggle("nav-active");
         burger.classList.toggle("toggle-burger");
@@ -10,6 +10,14 @@ const navSlide = () => {
 }
 
 navSlide();
+
+// Klik di luar burger
+window.addEventListener("click", (e) => {
+    if (e.target != burger && e.target != navLists) {
+        navLists.classList.remove("nav-active");
+        burger.classList.remove("toggle-burger");
+    }
+})
 
 // Clear form before unload
 window.onbeforeunload = () => {
