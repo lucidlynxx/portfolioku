@@ -1,471 +1,382 @@
 <!DOCTYPE html>
 <html lang="id">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dzaky Syahrizal - Portfolio</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./img/favicon//favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="./img/favicon//favicon-16x16.png"
-    />
-    <link rel="manifest" href="./img/favicon//site.webmanifest" />
-    <link rel="stylesheet" href="./style/style.css" />
-    <link rel="stylesheet" href="./style/responsive.css" />
-  </head>
 
-  <body>
-    <!-- Header -->
-    <header>
-      <div class="main-container">
-        <div class="nav">
-          <div class="logo">
-            <a href="/">DS</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dzaky Syahrizal - Portfolio</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon//favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon//favicon-16x16.png" />
+  <link rel="manifest" href="./img/favicon//site.webmanifest" />
+  <link rel="stylesheet" href="./style/style.css" />
+  <link rel="stylesheet" href="./style/responsive.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="main-container">
+      <div class="nav">
+        <div class="logo">
+          <a href="/">DS</a>
+        </div>
+
+        <nav>
+          <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolios">Portfolio</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+              <a href="/portfolioku/resume.pdf" target="_blank">
+                <button class="btn">Resume</button>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="burger">
+          <div class="line-1"></div>
+          <div class="line-2"></div>
+          <div class="line-3"></div>
+        </div>
+      </div>
+
+      <section id="hero">
+        <div class="hero-left">
+          <h3 class="pre-title">My Name is</h3>
+          <h1 class="hero-name">Dzaky <span>Syahrizal</span></h1>
+          <p>
+            Seorang Junior Web Developer dengan pemahaman dalam HTML, CSS,
+            JavaScript, dan PHP. menciptakan solusi web menarik yang responsif
+            dan interaktif. berdedikasi membuat proyek-proyek menjadi hidup
+            dengan tampilan elegan dan fungsionalitas yang baik.
+          </p>
+        </div>
+        <div class="hero-right">
+          <img src="./img/code_thinking.svg" alt="hero image" />
+        </div>
+      </section>
+    </div>
+  </header>
+  <!-- End of Header -->
+
+  <!-- Services -->
+  <section id="services">
+    <div class="services main-container">
+      <h3 class="pre-title">Services</h3>
+      <h1 class="section-title services-title">Specialize In</h1>
+
+      <div class="grid-3">
+        <!-- One -->
+        <div class="service">
+          <div class="service-icon">
+            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+              <path
+                d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12m2.557 16h-5.115c.546 2.46 1.441 4.114 2.558 5.744 1.194-1.741 2.041-3.41 2.557-5.744m-7.157 0h-4.567c1.236 2.825 3.704 4.972 6.755 5.716-1.048-1.733-1.783-3.658-2.188-5.716m13.767 0h-4.567c-.391 1.988-1.095 3.887-2.175 5.694 3.012-.763 5.517-2.895 6.742-5.694m-14.005-6h-4.962c-.267 1.313-.267 2.685 0 4h4.915c-.119-1.329-.101-2.672.047-4m7.661 0h-5.647c-.165 1.326-.185 2.672-.053 4h5.753c.133-1.328.111-2.673-.053-4m6.977 0h-4.963c.148 1.328.166 2.671.048 4h4.915c.26-1.285.273-2.648 0-4m-12.156-7.729c-3.077.732-5.567 2.886-6.811 5.729h4.653c.435-2.042 1.178-3.985 2.158-5.729m2.355-.048c-1.089 1.77-1.91 3.453-2.463 5.777h4.927c-.534-2.246-1.337-3.948-2.464-5.777m2.368.069c1.013 1.812 1.733 3.76 2.146 5.708h4.654c-1.232-2.816-3.762-4.958-6.8-5.708" />
+            </svg>
+          </div>
+          <h4>Web Development</h4>
+          <p>
+            Membuat dan merawat situs web anda serta menjaga kinerja dan
+            kapasitas lalu lintasnya.
+          </p>
+        </div>
+
+        <!-- Two -->
+        <div class="service">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path
+                d="M24 10.935v2.131l-8 3.947v-2.23l5.64-2.783-5.64-2.79v-2.223l8 3.948zm-16 3.848l-5.64-2.783 5.64-2.79v-2.223l-8 3.948v2.131l8 3.947v-2.23zm7.047-10.783h-2.078l-4.011 16h2.073l4.016-16z" />
+            </svg>
+          </div>
+          <h4>Application Development</h4>
+          <p>
+            Standar desain, pembangunan, dan implementasi aplikasi anda
+            beserta dokumentasinya.
+          </p>
+        </div>
+
+        <!-- Three -->
+        <div class="service">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path
+                d="M6 2c.552 0 1 .449 1 1s-.448 1-1 1-1-.449-1-1 .448-1 1-1zm15 9c.552 0 1 .448 1 1s-.448 1-1 1-1-.449-1-1c0-.552.448-1 1-1zm-15 9c.552 0 1 .449 1 1s-.448 1-1 1-1-.449-1-1 .448-1 1-1zm0-20c-1.656 0-3 1.343-3 3s1.344 3 3 3 3-1.343 3-3-1.344-3-3-3zm15 9c-1.656 0-3 1.343-3 3s1.344 3 3 3 3-1.343 3-3-1.344-3-3-3zm-15 9c-1.657 0-3 1.343-3 3s1.343 3 3 3c1.656 0 3-1.343 3-3s-1.344-3-3-3zm4.588-16.979l.412-.021c4.281 0 7.981 2.45 9.8 6.021-.717.029-1.39.21-1.998.511-1.555-2.703-4.466-4.532-7.802-4.532 0-.703-.149-1.372-.412-1.979zm10.212 15.958c-1.819 3.571-5.519 6.021-9.8 6.021l-.412-.021c.263-.607.412-1.276.412-1.979 3.336 0 6.247-1.829 7.802-4.532.608.302 1.281.483 1.998.511zm-18.91 1.186c-1.193-1.759-1.89-3.88-1.89-6.165s.697-4.406 1.89-6.165c.392.566.901 1.039 1.487 1.403-.867 1.383-1.377 3.012-1.377 4.762s.51 3.379 1.377 4.762c-.586.364-1.096.837-1.487 1.403z" />
+            </svg>
+          </div>
+          <h4>API Development</h4>
+          <p>
+            Membangun dan mengelola API (Application Programming Interface)
+            untuk berkomunikasi antara berbagai komponen perangkat lunak.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of Services -->
+
+  <!-- Portfolio -->
+  <section id="portfolios">
+    <div class="portfolios main-container">
+      <h3 class="pre-title">My Works</h3>
+      <h1 class="section-title">Featured Portfolio</h1>
+
+      <div class="grid-3">
+        <!-- One -->
+        <div class="portfolio">
+          <div class="portfolio-cover">
+            <img src="./img/portfolio/portfolio1.jpg" alt="portfolio 1" />
           </div>
 
-          <nav>
+          <div class="portfolio-info">
+            <div class="portfolio-title">
+              <h4>Sistem Point of Sales (POS)</h4>
+              <a href="https://github.com/lucidlynxx/pointofsales" class="portfolio-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path
+                    d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z" />
+                </svg>
+              </a>
+            </div>
+
+            <div class="portfolio-tags">
+              <div>Laravel</div>
+              <div>AlpineJs</div>
+              <div>Tailwind</div>
+            </div>
+
+            <p>
+              Sistem Point of Sales (POS) merupakan sebuah aplikasi yang
+              dibangun menggunakan framework Laravel dan admin panel Filament.
+              Aplikasi ini bertujuan untuk membantu pengelolaan penjualan dan
+              inventaris produk pada suatu toko atau bisnis. Admin panel
+              Filament memudahkan pengguna dalam mengelola data dan melihat
+              laporan penjualan.
+            </p>
+          </div>
+        </div>
+
+        <!-- Two -->
+        <div class="portfolio">
+          <div class="portfolio-cover">
+            <img src="./img/portfolio/portfolio2.jpg" alt="portfolio 2" />
+          </div>
+
+          <div class="portfolio-info">
+            <div class="portfolio-title">
+              <h4>Sistem Blog</h4>
+              <a href="https://github.com/lucidlynxx/blogku" class="portfolio-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path
+                    d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z" />
+                </svg>
+              </a>
+            </div>
+
+            <div class="portfolio-tags">
+              <div>Laravel</div>
+              <div>AlpineJs</div>
+              <div>Tailwind</div>
+            </div>
+
+            <p>
+              Sebuah sistem blog yang memungkinkan pengguna untuk membuat,
+              mengedit, dan menghapus posting blog. Sistem juga akan
+              menyediakan fitur seperti komentar, pencarian, dan kategori
+              untuk memudahkan pengguna dalam menavigasi dan berinteraksi
+              dengan konten blog.
+            </p>
+          </div>
+        </div>
+
+        <!-- Three -->
+        <div class="portfolio">
+          <div class="portfolio-cover">
+            <img src="./img/portfolio/portfolio3.jpg" alt="portfolio 3" />
+          </div>
+
+          <div class="portfolio-info">
+            <div class="portfolio-title">
+              <h4>Sistem Informasi Sekolah</h4>
+              <a href="https://github.com/lucidlynxx/tkmaarifcurug" class="portfolio-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path
+                    d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z" />
+                </svg>
+              </a>
+            </div>
+
+            <div class="portfolio-tags">
+              <div>Laravel</div>
+              <div>Bootstrap</div>
+            </div>
+
+            <p>
+              Sistem informasi sekolah Taman Kanak-Kanak (TK). Aplikasi ini
+              bertujuan untuk membantu mengelola data di sekolah TK.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of Portfolio -->
+
+  <!-- Skills & Experience -->
+  <section id="skills">
+    <div class="skills main-container">
+      <h3 class="pre-title">Learning Path</h3>
+      <h3 class="section-title">Skills & Experience</h3>
+
+      <div class="skills-grid">
+        <div class="skills-left">
+          <!-- Experience 1 -->
+          <div class="experience">
+            <div class="line">
+              <div></div>
+            </div>
+
+            <div class="experience-info">
+              <h4 class="experience-title">Kantor Desa Banyuresmi</h4>
+              <p>Web Developer</p>
+              <h4 class="experience-years">7 Maret 2022 - 8 Juli 2022</h4>
+            </div>
+          </div>
+
+          <!-- Experience 2 -->
+          <div class="experience">
+            <div class="line">
+              <div></div>
+            </div>
+
+            <div class="experience-info">
+              <h4 class="experience-title">
+                STIKes BAKTI TUNAS HUSADA TASIKMALAYA
+              </h4>
+              <p>IT Support</p>
+              <h4 class="experience-years">6 Juni 2016 - 3 September 2016</h4>
+            </div>
+          </div>
+        </div>
+        <div class="skills-right">
+          <p>
+            Berdedikasi dengan minat kuat dalam pengembangan web. Berkomitmen
+            untuk menggabungkan pengetahuan dari pengalaman dengan semangat
+            belajar yang tinggi untuk membangun proyek-proyek web kreatif.
+            Memiliki kemampuan untuk merancang dan mengimplementasikan tata
+            letak responsif dengan fokus pada kepuasan pengguna. Antusias
+            dalam mengeksplorasi teknologi baru dan siap untuk belajar lebih
+            lanjut tentang praktik terbaik dalam pengembangan web.
+          </p>
+
+          <div class="skills-list">
             <ul>
-              <li><a href="#services">Services</a></li>
-              <li><a href="#portfolios">Portfolio</a></li>
-              <li><a href="#skills">Skills</a></li>
-              <li><a href="#contact">Contact</a></li>
-              <li>
-                <a href="/portfolioku/resume.pdf" target="_blank">
-                  <button class="btn">Resume</button>
-                </a>
-              </li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>PHP</li>
+              <li>MySQL</li>
+              <li>GitHub</li>
             </ul>
-          </nav>
-
-          <div class="burger">
-            <div class="line-1"></div>
-            <div class="line-2"></div>
-            <div class="line-3"></div>
-          </div>
-        </div>
-
-        <section id="hero">
-          <div class="hero-left">
-            <h3 class="pre-title">My Name is</h3>
-            <h1 class="hero-name">Dzaky <span>Syahrizal</span></h1>
-            <p>
-              Seorang Junior Web Developer dengan pemahaman dalam HTML, CSS,
-              JavaScript, dan PHP. menciptakan solusi web menarik yang responsif
-              dan interaktif. berdedikasi membuat proyek-proyek menjadi hidup
-              dengan tampilan elegan dan fungsionalitas yang baik.
-            </p>
-          </div>
-          <div class="hero-right">
-            <img src="./img/code_thinking.svg" alt="hero image" />
-          </div>
-        </section>
-      </div>
-    </header>
-    <!-- End of Header -->
-
-    <!-- Services -->
-    <section id="services">
-      <div class="services main-container">
-        <h3 class="pre-title">Services</h3>
-        <h1 class="section-title services-title">Specialize In</h1>
-
-        <div class="grid-3">
-          <!-- One -->
-          <div class="service">
-            <div class="service-icon">
-              <svg
-                width="24"
-                height="24"
-                xmlns="http://www.w3.org/2000/svg"
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-              >
-                <path
-                  d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12m2.557 16h-5.115c.546 2.46 1.441 4.114 2.558 5.744 1.194-1.741 2.041-3.41 2.557-5.744m-7.157 0h-4.567c1.236 2.825 3.704 4.972 6.755 5.716-1.048-1.733-1.783-3.658-2.188-5.716m13.767 0h-4.567c-.391 1.988-1.095 3.887-2.175 5.694 3.012-.763 5.517-2.895 6.742-5.694m-14.005-6h-4.962c-.267 1.313-.267 2.685 0 4h4.915c-.119-1.329-.101-2.672.047-4m7.661 0h-5.647c-.165 1.326-.185 2.672-.053 4h5.753c.133-1.328.111-2.673-.053-4m6.977 0h-4.963c.148 1.328.166 2.671.048 4h4.915c.26-1.285.273-2.648 0-4m-12.156-7.729c-3.077.732-5.567 2.886-6.811 5.729h4.653c.435-2.042 1.178-3.985 2.158-5.729m2.355-.048c-1.089 1.77-1.91 3.453-2.463 5.777h4.927c-.534-2.246-1.337-3.948-2.464-5.777m2.368.069c1.013 1.812 1.733 3.76 2.146 5.708h4.654c-1.232-2.816-3.762-4.958-6.8-5.708"
-                />
-              </svg>
-            </div>
-            <h4>Web Development</h4>
-            <p>
-              Membuat dan merawat situs web anda serta menjaga kinerja dan
-              kapasitas lalu lintasnya.
-            </p>
-          </div>
-
-          <!-- Two -->
-          <div class="service">
-            <div class="service-icon">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M24 10.935v2.131l-8 3.947v-2.23l5.64-2.783-5.64-2.79v-2.223l8 3.948zm-16 3.848l-5.64-2.783 5.64-2.79v-2.223l-8 3.948v2.131l8 3.947v-2.23zm7.047-10.783h-2.078l-4.011 16h2.073l4.016-16z"
-                />
-              </svg>
-            </div>
-            <h4>Application Development</h4>
-            <p>
-              Standar desain, pembangunan, dan implementasi aplikasi anda
-              beserta dokumentasinya.
-            </p>
-          </div>
-
-          <!-- Three -->
-          <div class="service">
-            <div class="service-icon">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M6 2c.552 0 1 .449 1 1s-.448 1-1 1-1-.449-1-1 .448-1 1-1zm15 9c.552 0 1 .448 1 1s-.448 1-1 1-1-.449-1-1c0-.552.448-1 1-1zm-15 9c.552 0 1 .449 1 1s-.448 1-1 1-1-.449-1-1 .448-1 1-1zm0-20c-1.656 0-3 1.343-3 3s1.344 3 3 3 3-1.343 3-3-1.344-3-3-3zm15 9c-1.656 0-3 1.343-3 3s1.344 3 3 3 3-1.343 3-3-1.344-3-3-3zm-15 9c-1.657 0-3 1.343-3 3s1.343 3 3 3c1.656 0 3-1.343 3-3s-1.344-3-3-3zm4.588-16.979l.412-.021c4.281 0 7.981 2.45 9.8 6.021-.717.029-1.39.21-1.998.511-1.555-2.703-4.466-4.532-7.802-4.532 0-.703-.149-1.372-.412-1.979zm10.212 15.958c-1.819 3.571-5.519 6.021-9.8 6.021l-.412-.021c.263-.607.412-1.276.412-1.979 3.336 0 6.247-1.829 7.802-4.532.608.302 1.281.483 1.998.511zm-18.91 1.186c-1.193-1.759-1.89-3.88-1.89-6.165s.697-4.406 1.89-6.165c.392.566.901 1.039 1.487 1.403-.867 1.383-1.377 3.012-1.377 4.762s.51 3.379 1.377 4.762c-.586.364-1.096.837-1.487 1.403z"
-                />
-              </svg>
-            </div>
-            <h4>API Development</h4>
-            <p>
-              Membangun dan mengelola API (Application Programming Interface)
-              untuk berkomunikasi antara berbagai komponen perangkat lunak.
-            </p>
+            <ul>
+              <li>Bootstrap</li>
+              <li>Tailwind</li>
+              <li>AlpineJs</li>
+              <li>Laravel</li>
+              <li>Livewire</li>
+            </ul>
           </div>
         </div>
       </div>
-    </section>
-    <!-- End of Services -->
+    </div>
+  </section>
+  <!-- End of Skills & Experience -->
 
-    <!-- Portfolio -->
-    <section id="portfolios">
-      <div class="portfolios main-container">
-        <h3 class="pre-title">My Works</h3>
-        <h1 class="section-title">Featured Portfolio</h1>
-
-        <div class="grid-3">
-          <!-- One -->
-          <div class="portfolio">
-            <div class="portfolio-cover">
-              <img src="./img/portfolio/portfolio1.jpg" alt="portfolio 1" />
-            </div>
-
-            <div class="portfolio-info">
-              <div class="portfolio-title">
-                <h4>Sistem Point of Sales (POS)</h4>
-                <a
-                  href="https://github.com/lucidlynxx/pointofsales"
-                  class="portfolio-link"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"
-                    />
-                  </svg>
-                </a>
-              </div>
-
-              <div class="portfolio-tags">
-                <div>Laravel</div>
-                <div>AlpineJs</div>
-                <div>Tailwind</div>
-              </div>
-
-              <p>
-                Sistem Point of Sales (POS) merupakan sebuah aplikasi yang
-                dibangun menggunakan framework Laravel dan admin panel Filament.
-                Aplikasi ini bertujuan untuk membantu pengelolaan penjualan dan
-                inventaris produk pada suatu toko atau bisnis. Admin panel
-                Filament memudahkan pengguna dalam mengelola data dan melihat
-                laporan penjualan.
-              </p>
-            </div>
+  <!-- Contact -->
+  <section id="contact">
+    <div class="contact main-container">
+      <div class="contact-left">
+        <form class="contact-form" action="https://formspree.io/f/xnqkdwew" method="post">
+          <div>
+            <input type="text" placeholder="Name" name="name" required />
           </div>
-
-          <!-- Two -->
-          <div class="portfolio">
-            <div class="portfolio-cover">
-              <img src="./img/portfolio/portfolio2.jpg" alt="portfolio 2" />
-            </div>
-
-            <div class="portfolio-info">
-              <div class="portfolio-title">
-                <h4>Sistem Blog</h4>
-                <a
-                  href="https://github.com/lucidlynxx/blogku"
-                  class="portfolio-link"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"
-                    />
-                  </svg>
-                </a>
-              </div>
-
-              <div class="portfolio-tags">
-                <div>Laravel</div>
-                <div>AlpineJs</div>
-                <div>Tailwind</div>
-              </div>
-
-              <p>
-                Sebuah sistem blog yang memungkinkan pengguna untuk membuat,
-                mengedit, dan menghapus posting blog. Sistem juga akan
-                menyediakan fitur seperti komentar, pencarian, dan kategori
-                untuk memudahkan pengguna dalam menavigasi dan berinteraksi
-                dengan konten blog.
-              </p>
-            </div>
+          <div>
+            <input type="email" placeholder="Email" name="email" required />
           </div>
+          <div>
+            <textarea name="message" id="message" placeholder="Message" cols="30" rows="10" required></textarea>
+          </div>
+          <div>
+            <button class="btn-submit">Kirim Pesan</button>
+          </div>
+        </form>
+      </div>
+      <div class="contact-right">
+        <!-- Contact 1 -->
+        <div class="contact-item">
+          <div class="contact-item-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path
+                d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z" />
+            </svg>
+          </div>
+          <div class="contact-item-detail">
+            <h4>Alamat</h4>
+            <p>Tasikmalaya, Jawa Barat, Indonesia</p>
+          </div>
+        </div>
 
-          <!-- Three -->
-          <div class="portfolio">
-            <div class="portfolio-cover">
-              <img src="./img/portfolio/portfolio3.jpg" alt="portfolio 3" />
-            </div>
+        <!-- Contact 2 -->
+        <div class="contact-item">
+          <div class="contact-item-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path
+                d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z" />
+            </svg>
+          </div>
+          <div class="contact-item-detail">
+            <h4>Telepon</h4>
+            <p>0822-4948-6237</p>
+          </div>
+        </div>
 
-            <div class="portfolio-info">
-              <div class="portfolio-title">
-                <h4>Sistem Informasi Sekolah</h4>
-                <a
-                  href="https://github.com/lucidlynxx/tkmaarifcurug"
-                  class="portfolio-link"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"
-                    />
-                  </svg>
-                </a>
-              </div>
-
-              <div class="portfolio-tags">
-                <div>Laravel</div>
-                <div>Bootstrap</div>
-              </div>
-
-              <p>
-                Sistem informasi sekolah Taman Kanak-Kanak (TK). Aplikasi ini
-                bertujuan untuk membantu mengelola data di sekolah TK.
-              </p>
-            </div>
+        <!-- Contact 3 -->
+        <div class="contact-item">
+          <div class="contact-item-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path
+                d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z" />
+            </svg>
+          </div>
+          <div class="contact-item-detail">
+            <h4>Email</h4>
+            <p>dzakysyahrizal04@gmail.com</p>
           </div>
         </div>
       </div>
-    </section>
-    <!-- End of Portfolio -->
+    </div>
+  </section>
+  <!-- End of Contact -->
 
-    <!-- Skills & Experience -->
-    <section id="skills">
-      <div class="skills main-container">
-        <h3 class="pre-title">Learning Path</h3>
-        <h3 class="section-title">Skills & Experience</h3>
+  <!-- Copyright -->
+  <footer>
+    <div class="footer-icons">
+      <a href="https://github.com/lucidlynxx">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+          <path
+            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+        </svg>
+      </a>
+    </div>
+    <p>&#169; <span id="currentYear"></span> - Made by Dzaky Syahrizal</p>
+  </footer>
+  <!-- End of Copyright -->
 
-        <div class="skills-grid">
-          <div class="skills-left">
-            <!-- Experience 1 -->
-            <div class="experience">
-              <div class="line">
-                <div></div>
-              </div>
+  <script src="scripts/main.js"></script>
+</body>
 
-              <div class="experience-info">
-                <h4 class="experience-title">
-                  STIKes BAKTI TUNAS HUSADA TASIKMALAYA
-                </h4>
-                <p>IT Support</p>
-                <h4 class="experience-years">6 Juni 2016 - 3 September 2016</h4>
-              </div>
-            </div>
-
-            <!-- Experience 2 -->
-            <div class="experience">
-              <div class="line">
-                <div></div>
-              </div>
-
-              <div class="experience-info">
-                <h4 class="experience-title">Kantor Desa Banyuresmi</h4>
-                <p>Web Developer</p>
-                <h4 class="experience-years">7 Maret 2022 - 8 Juli 2022</h4>
-              </div>
-            </div>
-          </div>
-          <div class="skills-right">
-            <p>
-              Berdedikasi dengan minat kuat dalam pengembangan web. Berkomitmen
-              untuk menggabungkan pengetahuan dari pengalaman dengan semangat
-              belajar yang tinggi untuk membangun proyek-proyek web kreatif.
-              Memiliki kemampuan untuk merancang dan mengimplementasikan tata
-              letak responsif dengan fokus pada kepuasan pengguna. Antusias
-              dalam mengeksplorasi teknologi baru dan siap untuk belajar lebih
-              lanjut tentang praktik terbaik dalam pengembangan web.
-            </p>
-
-            <div class="skills-list">
-              <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>PHP</li>
-                <li>MySQL</li>
-                <li>GitHub</li>
-              </ul>
-              <ul>
-                <li>Bootstrap</li>
-                <li>Tailwind</li>
-                <li>AlpineJs</li>
-                <li>Laravel</li>
-                <li>Livewire</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End of Skills & Experience -->
-
-    <!-- Contact -->
-    <section id="contact">
-      <div class="contact main-container">
-        <div class="contact-left">
-          <form
-            class="contact-form"
-            action="https://formspree.io/f/xnqkdwew"
-            method="post"
-          >
-            <div>
-              <input type="text" placeholder="Name" name="name" required />
-            </div>
-            <div>
-              <input type="email" placeholder="Email" name="email" required />
-            </div>
-            <div>
-              <textarea
-                name="message"
-                id="message"
-                placeholder="Message"
-                cols="30"
-                rows="10"
-                required
-              ></textarea>
-            </div>
-            <div>
-              <button class="btn-submit">Kirim Pesan</button>
-            </div>
-          </form>
-        </div>
-        <div class="contact-right">
-          <!-- Contact 1 -->
-          <div class="contact-item">
-            <div class="contact-item-icon">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"
-                />
-              </svg>
-            </div>
-            <div class="contact-item-detail">
-              <h4>Alamat</h4>
-              <p>Tasikmalaya, Jawa Barat, Indonesia</p>
-            </div>
-          </div>
-
-          <!-- Contact 2 -->
-          <div class="contact-item">
-            <div class="contact-item-icon">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z"
-                />
-              </svg>
-            </div>
-            <div class="contact-item-detail">
-              <h4>Telepon</h4>
-              <p>0822-4948-6237</p>
-            </div>
-          </div>
-
-          <!-- Contact 3 -->
-          <div class="contact-item">
-            <div class="contact-item-icon">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"
-                />
-              </svg>
-            </div>
-            <div class="contact-item-detail">
-              <h4>Email</h4>
-              <p>dzakysyahrizal04@gmail.com</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End of Contact -->
-
-    <!-- Copyright -->
-    <footer>
-      <div class="footer-icons">
-        <a href="https://github.com/lucidlynxx">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-          >
-            <path
-              d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
-            />
-          </svg>
-        </a>
-      </div>
-      <p>&#169; <span id="currentYear"></span> - Made by Dzaky Syahrizal</p>
-    </footer>
-    <!-- End of Copyright -->
-
-    <script src="scripts/main.js"></script>
-  </body>
 </html>
