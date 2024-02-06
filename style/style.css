@@ -347,8 +347,17 @@ nav ul li a {
   position: relative;
 }
 
+.experience-title {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
 .experience-info p {
-  margin: 0.6rem 0 1.4rem;
+  margin: 0.6rem 0;
+}
+
+.experience-info p a {
+  color: var(--secondaryTextColor);
 }
 
 .experience-years {
